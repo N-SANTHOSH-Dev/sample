@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cherry on Top | Homemade Desserts</title>
+     <link rel="icon" type="image/png" href="assets/logo.png">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <!-- =================================
+     CHERRY ON TOP LOADER
+================================= -->
+
+<div id="loader">
+
+    <div class="loader-video-container">
+
+        
+
+        <div class="loader-overlay"></div>
+
+<!-- Pixel logo animation -->
+<canvas id="logoCanvas"></canvas>
+
+<!-- Clear logo appears after pixel formation -->
+<img
+    id="finalLogo"
+    src="assets/logo.png"
+    alt="Cherry on Top"
+>
+
+<div class="loader-content">
+
+            <p class="loader-small">
+                CHERRY ON TOP
+            </p>
+
+            <p class="loader-message">
+                Baking something special...
+            </p>
+
+            <div class="loader-progress">
+                <span></span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- =================================
+         YOUR WEBSITE
+    ================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <img
+                    src="assets/logo.png"
+                    alt="Cherry on Top Logo"
+                >
+            </a>
+
+           <nav class="nav-menu">
+
+    <a href="#home" class="nav-link active">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#menu" class="nav-link">Menu</a>
+    <a href="#contact" class="nav-link">Contact</a>
+
+    <a href="#contact" class="order-btn">
+        Order Now
+    </a>
+
+</nav>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-container">
+
+                <p class="hero-label">
+                    HOMEMADE • FRESH • DELICIOUS
+                </p>
+
+                <h1>
+                    Homemade Desserts
+                    <span>Made With Love</span>
+                </h1>
+
+                <p class="hero-description">
+                    Delicious homemade desserts and savory treats,
+                    freshly prepared with love for every special moment.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#menu"
+                        class="btn primary-btn"
+                    >
+                        Explore Menu
+                        <span>→</span>
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="btn secondary-btn"
+                    >
+                        Order Now
+                    </a>
+
+                </div>
+
+                <div class="stats">
+
+    <div class="stat-item">
+        <h3>50+</h3>
+        <p>Desserts</p>
+    </div>
+
+    <div class="stat-item">
+        <h3>2+</h3>
+        <p>Years Experience</p>
+    </div>
+
+    <div class="stat-item">
+        <h3>Happy</h3>
+        <p>Customers</p>
+    </div>
+
+    <div class="stat-item">
+        <h3>100%</h3>
+        <p>Homemade</p>
+    </div>
+
+</div>
+
+
+<div class="home-highlights">
+    <div class="highlight-card">
+
+        <div class="highlight-icon">✦</div>
+
+        <div class="highlight-content">
+            <h4>Order 2 Days in Advance</h4>
+            <p>Customisation available for your special orders</p>
+        </div>
+
+    </div>
+</div>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================================
+     ABOUT SECTION
+===================================================== -->
+
+<section class="about-section" id="about">
+
+    <div class="about-container">
+
+
+        <!-- =================================================
+             LEFT : BAKING VIDEO
+        ================================================= -->
+
+        <div class="about-visual">
+
+            <div class="about-video-frame">
+
+                <video
+                    class="about-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                >
+
+                    <source
+                        src="assets/248474.mp4"
+                        type="video/mp4"
+                    >
+
+                </video>
+
+                <div class="about-video-overlay"></div>
+
+
+                <!-- YEARS BADGE -->
+
+                <div class="about-badge">
+
+                    <strong>2+</strong>
+
+                    <span>
+                        YEARS OF<br>
+                        CRAFT
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- CREATIONS BADGE -->
+
+            <div class="about-creation">
+
+                <strong>50+</strong>
+
+                <span>
+                    UNIQUE SIGNATURE<br>
+                    CREATIONS
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             RIGHT : CONTENT
+        ================================================= -->
+
+        <div class="about-content">
+
+
+            <!-- HEADING -->
+
+            <div class="about-heading">
+
+                <p class="about-eyebrow">
+                    ABOUT CHERRY ON TOP
+                </p>
+
+                <h2>
+                    Cherry
+                    <span>on Top</span>
+                </h2>
+
+                <div class="about-line"></div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 CARD STACK
+            ================================================= -->
+
+            <div class="about-stack" id="aboutStack">
+
+
+                <!-- CARD 1 -->
+
+                <article
+                    class="about-card"
+                    data-index="0"
+                >
+
+                    <div class="card-watermark"></div>
+
+                    <div class="card-number">
+                        01
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <p>
+                            Your go-to destination for handcrafted, freshly baked goodness. What started as a passion for creating sweet memories has grown into a home bakery dedicated to elevating your everyday moments and biggest celebrations.
+                        </p>
+
+                        <p>
+                            fudgy brownies and soft Korean cheese buns to show-stopping custom cakes and decadent dessert jars, every item is freshly baked from scratch using high-quality ingredients.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CARD 2 -->
+
+                <article
+                    class="about-card"
+                    data-index="1"
+                >
+
+                    <div class="card-watermark"></div>
+
+                    <div class="card-number">
+                        02
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <p>
+                            With over 2 years of craft and 50+ unique signature creations, we don’t just bake desserts—we craft edible happiness
+                        </p>
+
+                        <p>
+                            we believe the best treats are made with zero shortcuts. Whether you’re craving an afternoon sweet fix, planning a custom birthday cake, or hosting an event, every batch is prepared fresh to order.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CARD 3 -->
+
+                <article
+                    class="about-card"
+                    data-index="2"
+                >
+
+                    <div class="card-watermark"></div>
+
+                    <div class="card-number">
+                        03
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <p>
+                            Make your events unforgettable with custom-curated bakery gifts! We design beautifully packaged brownies, dessert jars, cookies, and savory hampers tailored for corporate events, employee appreciation, weddings, baby showers, and birthday return favors.
+                        </p>
+
+                        <p>
+                            Personalized tags, themed packaging, and bulk options are available to match your brand or event vision seamlessly.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 STACK INDICATORS
+            ================================================= -->
+
+            <div class="about-navigation">
+
+                <button
+                    class="about-dot active"
+                    data-slide="0"
+                    aria-label="About card 1"
+                ></button>
+
+                <button
+                    class="about-dot"
+                    data-slide="1"
+                    aria-label="About card 2"
+                ></button>
+
+                <button
+                    class="about-dot"
+                    data-slide="2"
+                    aria-label="About card 3"
+                ></button>
+
+            </div>
+
+
+
+            <!-- TAGLINE -->
+
+            <div class="about-tagline">
+
+                Fresh
+                <span>•</span>
+
+                Homemade
+                <span>•</span>
+
+                Customised
+                <span>•</span>
+
+                Made With Love
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     MENU SECTION
+===================================================== -->
+<!-- =========================
+     MENU SECTION
+========================= -->
+
+<section class="menu-section" id="menu">
+
+    <div class="menu-container">
+
+        <!-- MENU HEADER -->
+        <div class="menu-header">
+
+            <span class="menu-label">
+                OUR MENU
+            </span>
+
+            <h2>
+                Sweet <span>&</span> Savoury
+            </h2>
+
+            <p>
+                Delicious desserts and mouth-watering savouries,
+                made fresh for every craving.
+            </p>
+
+        </div>
+
+
+        <!-- =========================
+             DAILY ORDERS BANNER
+        ========================= -->
+
+        <div class="daily-order-banner daily-image-banner">
+
+            <picture>
+                <source
+                    srcset="assets/menu/banner/Fresh Daily Orders Bakery Banner.png"
+                    type="image/png"
+                >
+                <img
+                    class="daily-banner-img"
+                    src="assets/menu/banner/Fresh Daily Orders Bakery Banner.png"
+                    width="1824"
+                    height="862"
+                    alt="Daily Orders: order in the morning and enjoy freshly prepared treats delivered to you in the evening."
+                >
+            </picture>
+
+            <!-- Invisible clickable area placed over the
+                 "ORDER DAILY ITEMS" button in the design -->
+            <button
+                type="button"
+                class="daily-banner-hit"
+                id="dailyOrderBtn"
+                aria-label="Order daily items"
+            ></button>
+
+        </div>
+
+
+        <!-- =========================
+             DAILY ORDER SUB MENU
+        ========================= -->
+
+        <div
+            class="daily-menu-panel"
+            id="dailyMenuPanel"
+            hidden
+        >
+
+            <div class="menu-panel-header">
+
+                <span class="menu-panel-label">
+                    DAILY ORDERS
+                </span>
+
+                <h3>
+                    Today's Fresh Picks
+                </h3>
+
+                <p>
+                    Select a category to explore today's available items.
+                </p>
+
+            </div>
+
+
+            <!-- DAILY SUB CATEGORIES -->
+
+            <div
+                class="daily-category-grid"
+                id="dailyCategoryGrid"
+            >
+
+                <button
+                    type="button"
+                    class="daily-category-btn daily-cat-card active"
+                    data-category="daily-desserts"
+                    aria-label="Daily Desserts"
+                >
+                    <!-- PHOTO: save it as assets/menu/daily-categories/daily-desserts.png (or .jpg / .webp) -->
+                    <span class="daily-cat-media" data-emoji="🍰">
+                        <img
+                            class="daily-cat-img"
+                            src="https://tse1.mm.bing.net/th/id/OIP._y7l3Nd-SBfx9zUI0bMF-QAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                            data-fallbacks="assets/menu/daily-categories/daily-desserts.jpg|assets/menu/daily-categories/daily-desserts.webp"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            onerror="var f=this.dataset.fallbacks?this.dataset.fallbacks.split('|'):[];if(f.length){this.dataset.fallbacks=f.slice(1).join('|');this.src=f[0];}else{this.parentNode.classList.add('no-image');this.remove();}"
+                        >
+                    </span>
+
+                    <span class="daily-cat-label">
+                        <strong>Daily Desserts</strong>
+                        <small>Freshly made</small>
+                    </span>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="daily-category-btn daily-cat-card"
+                    data-category="daily-cakes"
+                    aria-label="Daily Cakes"
+                >
+                    <!-- PHOTO: save it as assets/menu/daily-categories/daily-cakes.png (or .jpg / .webp) -->
+                    <span class="daily-cat-media" data-emoji="🎂">
+                        <img
+                            class="daily-cat-img"
+                            src="https://happyhappyacademy.com/wp-content/uploads/2024/01/%EC%BB%A4%EB%A6%AC%ED%81%98%EB%9F%BC%EC%9D%84%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4_dailycake_si_curri_1.png"
+                            data-fallbacks="assets/menu/daily-categories/daily-cakes.jpg|assets/menu/daily-categories/daily-cakes.webp"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            onerror="var f=this.dataset.fallbacks?this.dataset.fallbacks.split('|'):[];if(f.length){this.dataset.fallbacks=f.slice(1).join('|');this.src=f[0];}else{this.parentNode.classList.add('no-image');this.remove();}"
+                        >
+                    </span>
+
+                    <span class="daily-cat-label">
+                        <strong>Daily Cakes</strong>
+                        <small>Ready for today</small>
+                    </span>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="daily-category-btn daily-cat-card"
+                    data-category="daily-savouries"
+                    aria-label="Daily Savouries"
+                >
+                    <!-- PHOTO: save it as assets/menu/daily-categories/daily-savouries.png (or .jpg / .webp) -->
+                    <span class="daily-cat-media" data-emoji="🥪">
+                        <img
+                            class="daily-cat-img"
+                            src="https://images.slurrp.com/prodarticles/r5g86gwiplb.webp"
+                            data-fallbacks="assets/menu/daily-categories/daily-savouries.jpg|assets/menu/daily-categories/daily-savouries.webp"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            onerror="var f=this.dataset.fallbacks?this.dataset.fallbacks.split('|'):[];if(f.length){this.dataset.fallbacks=f.slice(1).join('|');this.src=f[0];}else{this.parentNode.classList.add('no-image');this.remove();}"
+                        >
+                    </span>
+
+                    <span class="daily-cat-label">
+                        <strong>Daily Savouries</strong>
+                        <small>Fresh & tasty</small>
+                    </span>
+                </button>
+            </div>
+
+
+            <!-- DAILY PRODUCTS -->
+
+            <div
+                class="daily-products-grid"
+                id="dailyProductsGrid"
+            >
+
+                <!--
+                    Daily products will be added here
+                    using JavaScript.
+                -->
+
+            </div>
+
+
+            <div class="daily-delivery-note">
+
+                <span>♥</span>
+
+                <p>
+                    Place your order in the morning and
+                    <strong>get it freshly prepared and delivered in the evening.</strong>
+                </p>
+
+                <span>♥</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             DESSERT + SAVOURY BANNERS
+        ========================= -->
+
+        <div
+            class="menu-choice-grid"
+            id="menuChoiceGrid"
+        >
+
+            <!-- DESSERT BANNER -->
+
+            <article class="menu-choice-banner dessert-banner">
+
+                <div class="choice-overlay"></div>
+
+                <div class="choice-content">
+
+                    <span class="choice-small-title">
+                        MADE WITH LOVE
+                    </span>
+
+                    <h3>
+                        Desserts
+                    </h3>
+
+                    <p>
+                        From cakes to cookies,
+                        every bite is pure bliss.
+                    </p>
+
+                    <!-- ONLY BUTTON IS CLICKABLE -->
+                    <button
+                        type="button"
+                        class="choice-order-btn"
+                        id="dessertOrderBtn"
+                    >
+                        ORDER DESSERTS
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- SAVOURY BANNER -->
+
+            <article class="menu-choice-banner savoury-banner">
+
+                <div class="choice-overlay"></div>
+
+                <div class="choice-content">
+
+                    <span class="choice-small-title">
+                        FRESH & DELICIOUS
+                    </span>
+
+                    <h3>
+                        Savouries
+                    </h3>
+
+                    <p>
+                        Pizzas, sandwiches & more
+                        to satisfy your cravings.
+                    </p>
+
+                    <!-- ONLY BUTTON IS CLICKABLE -->
+                    <button
+                        type="button"
+                        class="choice-order-btn"
+                        id="savouryOrderBtn"
+                    >
+                        ORDER SAVOURIES
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- =========================
+             DESSERT MENU
+        ========================= -->
+
+        <div
+            class="menu-product-panel"
+            id="dessertMenuPanel"
+            hidden
+        >
+
+            <div class="menu-panel-header">
+
+                <span class="menu-panel-label">
+                    DESSERTS
+                </span>
+
+                <h3>
+                    Our Dessert Collection
+                </h3>
+
+                <p>
+                    Choose your favourite homemade desserts.
+                </p>
+
+            </div>
+
+
+            <!-- YOUR EXISTING DESSERT FILTERS CAN GO HERE -->
+
+            <div
+                class="menu-filters"
+                id="dessertFilters"
+            >
+
+                <button
+                    type="button"
+                    class="menu-filter active"
+                    data-category="cookies"
+                >
+                    Cookie Tubs
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="bites"
+                >
+                    Cookie Bites
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="brownie"
+                >
+                    Brownie Tubs
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="brookies"
+                >
+                    Brookies
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="bento"
+                >
+                    Bento Cakes
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="birthday"
+                >
+                    Birthday Cakes
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="cupcakes"
+                >
+                    Cupcakes
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="tresleches"
+                >
+                    Tres Leches
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="tiramisu"
+                >
+                    Tiramisu
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="jarcakes"
+                >
+                    Jar Cakes
+                </button>
+
+            </div>
+
+
+            <!-- EXISTING PRODUCT GRID -->
+
+            <div
+                class="menu-grid"
+                id="menuGrid"
+            >
+                <!-- Your existing dessert products generated by JS -->
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             SAVOURY MENU
+        ========================= -->
+
+        <div
+            class="menu-product-panel"
+            id="savouryMenuPanel"
+            hidden
+        >
+
+            <div class="menu-panel-header">
+
+                <span class="menu-panel-label">
+                    SAVOURIES
+                </span>
+
+                <h3>
+                    Our Savoury Collection
+                </h3>
+
+                <p>
+                    Freshly prepared savoury treats for every craving.
+                </p>
+
+            </div>
+
+
+            <!-- SAVOURY CATEGORIES -->
+
+            <div
+                class="savoury-filters"
+                id="savouryFilters"
+            >
+
+                <button
+                    type="button"
+                    class="menu-filter active"
+                    data-category="vegpizza"
+                >
+                    Veg Pizzas
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="nonvegpizza"
+                >
+                    Non-Veg Pizzas
+                </button>
+
+                <button
+                    type="button"
+                    class="menu-filter"
+                    data-category="buns"
+                >
+                    Korean Buns
+                </button>
+
+            </div>
+
+
+            <div
+                class="menu-grid"
+                id="savouryGrid"
+            >
+
+                <!-- Savoury products will be added here -->
+
+            </div>
+
+        </div>
+
+
+        <!-- HOW IT WORKS -->
+
+        <div class="menu-how-it-works">
+
+            <div class="how-title">
+                <span></span>
+                HOW IT WORKS
+                <span></span>
+            </div>
+
+
+            <div class="how-steps">
+
+                <div class="how-step">
+
+                    <div class="step-icon">
+                        🍰
+                    </div>
+
+                    <div>
+                        <span>01</span>
+
+                        <h4>
+                            Choose Your Category
+                        </h4>
+
+                        <p>
+                            Pick desserts, savouries or daily
+                            items from the menu above.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="step-arrow">
+                    →
+                </div>
+
+
+                <div class="how-step">
+
+                    <div class="step-icon">
+                        📝
+                    </div>
+
+                    <div>
+                        <span>02</span>
+
+                        <h4>
+                            Select & Order
+                        </h4>
+
+                        <p>
+                            Explore the items and place
+                            your order with ease.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="step-arrow">
+                    →
+                </div>
+
+
+                <div class="how-step">
+
+                    <div class="step-icon">
+                        🛵
+                    </div>
+
+                    <div>
+                        <span>03</span>
+
+                        <h4>
+                            Freshly Made & Delivered
+                        </h4>
+
+                        <p>
+                            We prepare fresh and deliver
+                            happiness to your doorstep.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="menu-bottom-note">
+
+                <span>♡</span>
+
+                All our items are freshly prepared to order
+                with love and the finest ingredients.
+
+                <span>♡</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FLOATING BACK TO MENU (shows while a menu panel is open) -->
+    <button
+        type="button"
+        class="floating-back-btn"
+        id="floatingBackBtn"
+        aria-label="Back to Menu"
+    >
+        <span class="floating-back-icon">←</span>
+        <span class="floating-back-text">Back to Menu</span>
+    </button>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT SECTION
+===================================================== -->
+
+<section class="contact-section" id="contact">
+
+    <div class="contact-container">
+
+        <div class="contact-header">
+            <span class="contact-label">GET IN TOUCH</span>
+            <h2>Let's Make Something <span>Sweet</span></h2>
+            <p>
+                Tell us what you're craving. We'll confirm your order
+                on WhatsApp. Please order 2 days in advance for custom
+                cakes and gifting.
+            </p>
+        </div>
+
+        <div class="contact-grid">
+
+            <!-- INFO CARDS -->
+            <div class="contact-info">
+
+                <a class="contact-card" id="contactWhatsapp" href="#" target="_blank" rel="noopener">
+                    <span class="contact-icon icon-whatsapp"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p id="contactWhatsappText">Chat with us to order</p>
+                    </div>
+                </a>
+
+                <a class="contact-card" id="contactPhone" href="#">
+                    <span class="contact-icon icon-phone"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/></svg></span>
+                    <div>
+                        <h4>Call Us</h4>
+                        <p id="contactPhoneText">Phone number</p>
+                    </div>
+                </a>
+
+                <a class="contact-card" id="contactInstagram" href="#" target="_blank" rel="noopener">
+                    <span class="contact-icon icon-instagram"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5.2" fill="none" stroke="#fff" stroke-width="2"/><circle cx="12" cy="12" r="4.1" fill="none" stroke="#fff" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.25" fill="#fff"/></svg></span>
+                    <div>
+                        <h4>Instagram</h4>
+                        <p id="contactInstagramText">@cherryontop__cbe</p>
+                    </div>
+                </a>
+
+                <a class="contact-card" id="contactYoutube" href="#" target="_blank" rel="noopener">
+                    <span class="contact-icon icon-youtube"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="#fff" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></span>
+                    <div>
+                        <h4>YouTube</h4>
+                        <p id="contactYoutubeText">@cherryontop-04</p>
+                    </div>
+                </a>
+
+                <a class="contact-card" id="contactLocation" href="#" target="_blank" rel="noopener">
+                    <span class="contact-icon icon-maps"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="#EA4335" d="M12 1.5A7.5 7.5 0 0 0 4.5 9c0 5.6 7.5 13.5 7.5 13.5S19.5 14.6 19.5 9A7.5 7.5 0 0 0 12 1.5z"/><circle cx="12" cy="9" r="3" fill="#fff"/></svg></span>
+                    <div>
+                        <h4>Location</h4>
+                        <p id="contactAddress">Neelambur, Coimbatore</p>
+                    </div>
+                </a>
+
+                <div class="contact-card">
+                    <span class="contact-icon icon-clock"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                    <div>
+                        <h4>Order Timings</h4>
+                        <p id="contactHours">Daily orders: morning · Custom: 2 days ahead</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- ORDER FORM -->
+            <form class="contact-form" id="orderForm" novalidate>
+
+                <h3>Place an Order</h3>
+
+                <div class="form-row">
+                    <label>
+                        Your Name
+                        <input type="text" id="orderName" placeholder="Enter your name" required>
+                    </label>
+
+                    <label>
+                        Phone Number
+                        <input type="tel" id="orderPhone" placeholder="10-digit mobile number" required>
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        Order Type
+                        <select id="orderType">
+                            <option>Desserts</option>
+                            <option>Cakes (Birthday / Bento / Custom)</option>
+                            <option>Savouries</option>
+                            <option>Daily Orders</option>
+                            <option>Gift Hampers / Bulk</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Delivery / Pickup Date
+                        <input type="date" id="orderDate" required>
+                    </label>
+                </div>
+
+                <label>
+                    What would you like?
+                    <textarea
+                        id="orderMessage"
+                        rows="4"
+                        placeholder="Items, quantity, flavour, message on cake, etc."
+                        required
+                    ></textarea>
+                </label>
+
+                <p class="form-error" id="formError" role="alert" hidden></p>
+
+                <button type="submit" class="form-submit">
+                    Send Order on WhatsApp <span>→</span>
+                </button>
+
+                <small class="form-note">
+                    This opens WhatsApp with your order filled in. Nothing is sent until you tap send.
+                </small>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <img src="assets/logo.png" alt="Cherry on Top">
+            <p>Homemade desserts and savoury treats, baked fresh with love for every special moment.</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Explore</h4>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-links">
+            <h4>Order</h4>
+            <a href="#menu">Desserts</a>
+            <a href="#menu">Savouries</a>
+            <a href="#menu">Daily Orders</a>
+            <a href="#contact">Custom Orders</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <span>© <span id="footerYear">2026</span> Cherry on Top. All rights reserved.</span>
+        <span>Fresh • Homemade • Made With Love ♥</span>
+    </div>
+
+</footer>
+
+
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
